@@ -1,0 +1,59 @@
+/* CSS Document */
+/* 右边 672px */
+.video_box { height:315px; }
+.video_box .v_l { width:480px; } 
+.video_box .v_r { width:190px; }
+.video_box .v_r li {display:block; margin-top:1px; height:103px; }
+
+.flash_ad1 {margin-top:4px;}
+
+/* 新闻 */
+
+.area_news .news_box{
+	width:329px;
+	height:165px;
+	background:url(bg_news1.jpg) no-repeat 0px 0px scroll;
+	float:left;
+	margin-top:10px;
+	position:relative;
+}
+
+.news_box .more{
+	position:absolute;
+	display:block;
+	width:50px;
+	height:30px;
+	right:0px;
+}
+
+.area_news .n_1{background-image:url(bg_news1.jpg);}
+.area_news .n_2{background-image:url(bg_news2.jpg); margin-left:10px;}
+.area_news .n_3{background-image:url(bg_news3.jpg);}
+.area_news .n_4{background-image:url(bg_news4.jpg); margin-left:10px;}
+.n_list {margin-top:45px; font-size:12px; color:#4D4D4D;}
+.n_list ul{padding:10px 0px 0px 5px;}
+.n_list li{line-height:22px; margin:0px 10px 0px 113px; border-bottom:dashed 1px #BEBEBE;}
+.n_list img {float:left;}
+
+/* 游戏截图 */
+.pic_box .box_c {
+	border:solid 3px #8DA3A3; padding:15px 0px 15px 4px;
+}
+.pic_box .box_h .more {padding-top:10px;}
+.pic_box .box_c ul{
+	display:block;
+	float:left;
+	padding-left:6px;
+}
+
+.link_box .box_c {
+	border:solid 3px #8DA3A3; padding:15px 0px 15px 4px;
+}
+.link_box .box_h .more {padding-top:10px;}
+.link_box .box_c ul{
+	display:block;
+	float:left;
+	padding-left:6px;
+}
+
+

@@ -1,0 +1,85 @@
+/* CSS Document */
+.nav_box {
+	height:31px;background:url(bg_nav.gif) repeat-x left bottom scroll;
+}
+
+.nav_box .fl {
+	height:31px; line-height:31px; font-size:14px; font-weight:bold; padding-left:14px;
+	background:url(bg_nav_tit.gif) no-repeat 4px center  scroll; color:#1B1B1B;
+}
+
+.nav_box .fr {line-height:31px;	margin-right:10px;	font-size:12px;}
+.nav_box .fr span{ color:#221F1F;}
+
+.content_box {
+	border: solid 1px #C3D1D1;
+	padding:7px;
+	background-color:#E7EDED;
+}
+
+.tb_head { height:26px;
+}
+.tb_head li {
+	width:95px; height:26px; line-height:26px; text-align:center;
+	display:block; float:left; margin-left:3px; color:#fff;
+	background:url(bg_tb_off.gif) no-repeat 0 0 scroll;
+	font-weight:bold;
+}
+.tb_head li a { color:#fff; text-decoration:none;}
+.tb_head li.on{
+	background:url(bg_tb_on.gif);
+}
+
+
+.tb_head li.on a{
+	color:#334646 !important;
+}
+
+.tb_body {
+	padding:6px;
+	background-color:#C3D1D1;
+}
+
+.tb_body li {
+	color:#333;
+	display:block;
+	padding:0px 10px;
+	height:24px;
+	line-height:24px;
+	margin-bottom:3px;
+	background:url(bg_item.gif) repeat-x 0 0 scroll;
+}
+
+
+
+.page {
+    float: right;
+    margin: 10px;
+    text-align: right;
+}
+
+.page a , .page strong, .page span{
+    display: block;
+    float: left;
+    margin-left: 5px;
+	line-height:18px !important;
+	background-color:#546B6B;
+    padding: 2px 6px;
+    text-align: center;
+    width: auto;
+    color: #fff;
+    text-decoration: none;
+}
+.page span{
+	background:none;
+	vertical-align:bottom;
+	border:none;
+    color: #000;
+}
+.page strong {
+	background:none;
+    border: medium none;
+    color: #000;
+}	
+
+

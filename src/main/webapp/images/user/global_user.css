@@ -1,0 +1,89 @@
+/* CSS Document */
+* {padding:0px; margin:0px;  list-style:none;}
+img {border:none;}
+body{background:url(body_bg.gif) repeat-x center top scroll; font-family: "微软雅黑"; color:#1B1B1B; font-size:12px; }
+.wrap {width:976px; margin:0px auto; position:relative; padding-bottom:146px; }
+a:link, a:visited{
+	color:#333333;
+	text-decoration:none;
+}
+
+
+/*-----定位------*/
+.fr { display:block; float:right;}
+.fl { display:block; float:left;}
+.t3 { margin-top:3px; }
+.t8 { margin-top:8px; }
+.cl { clear:both; }
+.l15{margin-left:15px;}
+.a14fff {font-size:14px; color:#fff;}
+
+.top_bar {height:31px; overflow:hidden; line-height:31px;}
+.top_bar .tool li {
+	height:23px; width:23px; margin-right:15px; margin-top:5px;
+	display:block;float:left;
+}
+.head {height:80px; position:relative;}
+.logo {position:absolute; left:0px; top:15px;}
+
+.nav_bar {
+	position:absolute;
+	right:27px;
+	top:18px;
+	font-size:14px;
+}
+
+
+.info{
+	height:42px; line-height:42px;
+	background:url(bg_info.gif) repeat-x center top scroll;
+}
+
+
+.pay_info{
+	height:198px; 
+	background:url(bg_pay_info.gif) repeat-x center top scroll;
+}
+
+.pay_area, .pay_area2 {
+	padding:40px 0px 0px 74px;
+}
+
+.pay_area2 td, .pay_area2 th {
+	height:32px; line-height:32px;
+}
+.pay_area td, .pay_area th {
+	height:32px; line-height:32px;
+}
+.pay_area th { text-align:right;}
+
+.pay_area input, .pay_area select{ width:204px; height:24px; line-height:24px; border:solid 1px #B6B9B9; }
+
+.payment_box .p_head {position:relative;height:50px; line-height:50px; background:url(bg_payment_h.gif) no-repeat left top scroll; }
+.payment_box .p_head .p_tit { position:absolute; top:0px; left:0px;width:230px; text-align:center; font-size:18px;}
+.payment_box .p_body {	border:solid 6px #B7C8C8;  background-color: #E7EDED;}
+
+.tab_head { height:42px;  position:absolute; bottom:-7px; left:230px;}
+
+.tab_head li {
+	width:124px; height:42px; line-height:36px; text-align:center;
+	display:block; float:left;  color:#fff; font-size:14px; font-weight:bold;
+}
+.tab_head li a { color:#fff; text-decoration:none;}
+.tab_head li.tab_on{
+	background:url(bg_tb_on.gif) no-repeat 0 0 scroll;
+}
+.tab_item { display:none;}
+.p_body{ padding:20px;}
+.p_body strong {font-size:14px;}
+
+.note { margin-top:30px; padding-left:75px;}
+.note strong {font-size:14px; line-height:32px;}
+
+.foot {
+	margin-top:20px;
+	border-top:solid 1px #D4D4D4;
+	padding-top:20px;
+	text-align:center;
+	line-height:26px;
+}

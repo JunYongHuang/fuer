@@ -1,0 +1,39 @@
+/* CSS Document */
+.nav_box {
+	height:31px;background:url(bg_nav.gif) repeat-x left bottom scroll;
+}
+
+.nav_box .fl {
+	height:31px; line-height:31px; font-size:14px; font-weight:bold; padding-left:14px;
+	background:url(bg_nav_tit.gif) no-repeat 4px center  scroll; color:#1B1B1B;
+}
+.nav_box .fr {line-height:31px;	margin-right:10px;	font-size:12px;}
+.nav_box .fr span{ color:#221F1F;}
+
+.content_box {
+	border: solid 1px #C3D1D1;
+	padding:7px;
+	background-color:#E7EDED;
+}
+.n_tit {
+	padding:10px 0px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#1B1B1B;
+	border-bottom:solid 2px #C3D1D1;
+}
+.n_base {
+	line-height:24px;
+	text-align:center;
+}
+.n_contents {
+	margin-top:20px;
+	font-size:14px;
+	color:#333333;
+	line-height:24px;
+}
+
+.link{}
+.link ul{float:left; padding-left:6px; height:100px; overflow:hidden;}
+.link ul li{text-align:center;}
