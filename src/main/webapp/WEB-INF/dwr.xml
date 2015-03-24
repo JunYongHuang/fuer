@@ -1,0 +1,30 @@
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 2.0//EN"
+	"http://www.getahead.ltd.uk/dwr/dwr20.dtd">
+<dwr>
+	<allow>
+		<create creator="spring" javascript="AjaxUtil">
+			<param name="beanName" value="ajaxUtil" />
+			<include method="checkCode"/>
+			<include method="voteWithReg"/>
+			<include method="voteNoReg"/>
+			<include method="checkUsername"/>
+			<include method="checkPwd"/>
+			<include method="checkEmail"/>
+			<include method="checkName"/>
+			<include method="checkIdcard"/>
+			<include method="getPresentGold"/>
+			<include method="sinaReg"/>
+			<include method="sinaLogin"/>
+		</create>
+		<create creator="spring" javascript="AdminAjaxUtil">
+			<param name="beanName" value="adminAjaxUtil" />
+			<include method="changeUserRole"/>
+			<include method="resetUserPwd"/>
+			<include method="getUserRoles"/>
+			<include method="saveSpreadUser"/>
+			<include method="updateSpreadCode"/>
+		</create>
+		
+		<convert converter="bean" match="com.cf.fuer.model.GameRole" />
+	</allow>
+</dwr>

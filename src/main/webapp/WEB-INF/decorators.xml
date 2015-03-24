@@ -1,0 +1,30 @@
+<decorators defaultdir="/decorators">
+    <excludes>
+        <pattern>**ajax=true</pattern>
+        <pattern>*/handbook/**</pattern>
+        <pattern>*/shiming/*</pattern>
+        <pattern>*/ueditor/*</pattern>
+        <pattern>*/receive*</pattern>
+        <pattern>*/games/*</pattern>
+        <pattern>*/txgames/*</pattern>
+        <pattern>*sr.php*</pattern>
+        <pattern>*fzc*.php*</pattern>
+    </excludes>
+    <decorator name="default" page="default.jsp">
+        <pattern>/*</pattern>
+    </decorator>
+    <decorator name="user_decorator" page="user_decorator.jsp">
+        <pattern>**login*</pattern>
+        <pattern>**register*</pattern>
+        <pattern>**charge*</pattern>
+        <pattern>*/account/*</pattern>
+        <pattern>*/orderDetail.php*</pattern>
+        <pattern>*/forget.php*</pattern>
+        <pattern>*/vote*</pattern>
+    </decorator>
+    <decorator name="admin" page="admin.jsp">
+        <pattern>*/admin/*</pattern>
+    </decorator>
+    <decorator name="handbook_decorator" page="handbook.jsp">
+    </decorator>
+</decorators>
