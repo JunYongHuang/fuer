@@ -1,0 +1,170 @@
+.wrap {
+    margin: 0 auto;
+    /*min-height: 1200px;*/
+    padding-bottom: 25px;
+    position: relative;
+}
+.wrap_top {
+	background-color: #ececec;
+/* 	background: url(../images/top_bg.jpg) repeat-x center top scroll; */
+}
+.branching{
+	background: url(../images/topbar/branching.jpg) no-repeat;
+	width: 2px;
+	height: 10px;
+	display: block;
+}
+.notice{
+	background: url("../images/topbar/notice.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 15px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+    width: 41px;
+}
+div.u_l{
+	color: #000000;
+    float: left;
+    font-weight: bold;
+}
+div.u_l a {
+    color: #000000;
+}
+div.u_l a:hover {
+    color: #333333;
+}
+
+div.u_r{
+	color: #686868;
+    float: right;
+    font-family: 宋体;
+}
+div.u_r a {
+    color: #686868;
+}
+div.u_r a:hover {
+    color: #789;
+}
+.top_bar span {
+    display: inline-block;
+    margin-right: 5px;
+}
+/**菜单*/
+.menu {
+	height: 41px;
+    width: 1002px;
+    z-index: 1;
+}
+.menu li {
+    display: inline-block;
+    float: left;
+    width: 143px;
+    height: 41px;
+}
+.menu li a {
+    display: block;
+    height: 41px;
+}
+.menu .m1 a {
+    background: url("../images/menu/m1.jpg") no-repeat scroll center center transparent;
+}
+.menu .m1 a:hover {
+    background: url("../images/menu/m1_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m2 a {
+    background: url("../images/menu/m2.jpg") no-repeat scroll center center transparent;
+}
+.menu .m2 a:hover {
+    background: url("../images/menu/m2_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m3 a {
+    background: url("../images/menu/m3.jpg") no-repeat scroll center center transparent;
+}
+.menu .m3 a:hover {
+    background: url("../images/menu/m3_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m4 a {
+    background: url("../images/menu/m4.jpg") no-repeat scroll center center transparent;
+}
+.menu .m4 a:hover {
+    background: url("../images/menu/m4_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m5 a {
+    background: url("../images/menu/m5.jpg") no-repeat scroll center center transparent;
+}
+.menu .m5 a:hover {
+    background: url("../images/menu/m5_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m6 a {
+    background: url("../images/menu/m6.jpg") no-repeat scroll center center transparent;
+}
+.menu .m6 a:hover {
+    background: url("../images/menu/m6_h.jpg") no-repeat scroll center center transparent;
+}
+.menu .m7 a {
+    background: url("../images/menu/m7.jpg") no-repeat scroll center center transparent;
+}
+.menu .m7 a:hover {
+    background: url("../images/menu/m7_h.jpg") no-repeat scroll center center transparent;
+}
+.logobox {
+    height: 232px;
+    overflow: hidden;
+    position: relative;
+}
+.logobox .logobox_l {
+	background: url("../images/menu/01.jpg") no-repeat scroll 0 0 transparent;
+    height: 232px;
+    overflow: hidden;
+    position: absolute;
+    width: 625px;
+}
+.logobox .logobox_r {
+height: 232px;
+overflow: hidden;
+position: absolute;
+right: 1px;
+width: 376px;
+}
+
+.body_l {
+    float: left;
+    overflow: hidden;
+    width: 256px;
+}
+.body_r {
+    float: right;
+    overflow: hidden;
+    width: 725px;
+}
+
+
+.footer {
+    color: #737476;
+    margin: 10px auto 0;
+    text-align: center;
+    width: 1002px;
+}
+ul.nav{
+	color: #EAEAEA;
+    font-family: 宋体;
+    margin-top: 5px;
+}
+ul.nav a {
+    color: #6A6A6A;
+    text-decoration: none;
+}
+ul.nav a:hover {
+    color: #789;
+    text-decoration: underline;
+}
+.bottomLine {
+    background: url("../images/login/bottomLine.jpg") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 12px;
+    width: 1px;
+}
+.nav li {
+    display: inline;
+    margin-right: 5px;
+}

@@ -1,0 +1,528 @@
+/* CSS Document */
+* {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+.body {
+	background: url(../images/vote/body_bg.gif) repeat-x center top scroll;
+	font-family: "微软雅黑";
+	color: #1B1B1B;
+	font-size: 12px;
+}
+
+.wrap {
+	width: 976px;
+	margin: 0px auto;
+	position: relative;
+	padding-bottom: 146px;
+}
+
+.cl {
+	clear: both;
+}
+
+.fr {
+	display: block;
+	float: right;
+}
+
+a:link,a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+.bds_more {
+	line-height: 16px;
+}
+/*--------投票---------*/
+.v_box {
+	border: solid 4px #cad3d8;
+}
+
+.v_box_tit {
+	height: 31px;
+	line-height: 31px;
+	background-color: #4e5f69;
+	padding-left: 12px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.v_box_body {
+	height: 100%;
+}
+
+.v_box_body ul {
+	padding-bottom: 20px;
+}
+
+.v_box_body ul li {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 14px;
+	color: #3f3b3a;
+}
+
+.v_box_foot {
+	text-align: center;
+	height: 50px;
+	padding-top: 12px;
+	background: url(../images/vote/bg_v_box_foot.jpg) repeat-x 0 0 scroll;
+}
+
+.btn_vote {
+	border: none;
+	width: 125px;
+	height: 38px;
+	cursor: pointer;
+	background: url(../images/vote/bg_btn_vote.jpg) no-repeat 0 0 scroll;
+}
+
+.btn_ok {
+	border: none;
+	width: 105px;
+	height: 32px;
+	cursor: pointer;
+	background: url(../images/vote/btn_ok.gif) no-repeat 0 0 scroll;
+}
+
+/*--------活动细则----------*/
+.v_box_explain {
+	position: relative;
+	height: 500px;
+	background-image: url(../images/vote/bg_explain.gif);
+}
+
+.explain_box {
+	position: absolute;
+	left: 59px;
+	top: 30px;
+	width: 830px;
+	height: 422px;
+	overflow-y: auto;
+	line-height: 24px;
+}
+
+.close_box {
+	position: absolute;
+	top: 470px;
+	width: 100%;
+	text-align: center;
+}
+
+/*-------查看投票-----------*/
+.v_box_view {
+	padding: 20px 100px;
+}
+
+/*-----定位------*/
+.top_bar {
+	height: 31px;
+	overflow: hidden;
+	line-height: 31px;
+}
+
+.top_bar .tool li {
+	height: 23px;
+	width: 23px;
+	margin-right: 15px;
+	margin-top: 5px;
+	display: block;
+	float: left;
+}
+
+.head {
+	height: 72px;
+	position: relative;
+}
+
+.logo {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.box_note {
+	position: absolute;
+	right: 0px;
+	bottom: 10px;
+	top: -30px;
+}
+
+.foot {
+	margin-top: 20px;
+	border-top: solid 1px #D4D4D4;
+	padding-top: 20px;
+	text-align: center;
+	line-height: 26px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> global settings needed for thickbox <<<-----------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox specific link and font settings <<<------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_window {
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #333333;
+}
+
+#TB_secondLine {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#TB_window a:link {
+	color: #666666;
+}
+
+#TB_window a:visited {
+	color: #666666;
+}
+
+#TB_window a:hover {
+	color: #000;
+}
+
+#TB_window a:active {
+	color: #666666;
+}
+
+#TB_window a:focus {
+	color: #666666;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+/* ---------->>> thickbox settings <<<-----------------------------------------------------------------------------*/
+/* ----------------------------------------------------------------------------------------------------------------*/
+#TB_overlay {
+	position: fixed;
+	z-index: 100;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+}
+
+.TB_overlayMacFFBGHack {
+	background: url(macFFBgHack.png) repeat;
+}
+
+.TB_overlayBG {
+	background-color: #000;
+	opacity: 0.75;
+}
+
+* html #TB_overlay { /* ie6 hack */
+	position: absolute;
+	height: expression(document.body.scrollHeight >            
+		    document.body.offsetHeight ?      
+		  
+		       document.body.scrollHeight :              
+		  document.body.offsetHeight +    
+		     
+		      'px');
+}
+
+#TB_window {
+	position: fixed;
+	z-index: 102;
+	color: #000000;
+	text-align: left;
+	top: 50%;
+	left: 50%;
+	border: none !important;
+	background: url(../images/vote/bg_01.jpg) no-repeat 0px 0px scroll;
+}
+
+* html #TB_window { /* ie6 hack */
+	position: absolute;
+	margin-top: expression(0 -                 parseInt(this.offsetHeight/ 2)
+		+  
+		 
+		      
+		     (       
+		       TBWindowMargin =                 document.documentElement && 
+		       
+		       document.documentElement.scrollTop ||            
+		    document.body.scrollTop ) +      
+		  
+		       'px' );
+}
+
+#TB_window img#TB_Image {
+	display: block;
+	margin: 15px 0 0 15px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #666;
+	border-left: 1px solid #666;
+}
+
+#TB_caption {
+	height: 25px;
+	padding: 7px 30px 10px 25px;
+	float: left;
+}
+
+#TB_closeWindow {
+	height: 25px;
+	padding: 11px 25px 10px 0;
+	float: right;
+}
+
+#TB_closeAjaxWindow {
+	padding: 5px 10px 0px 0px;
+	text-align: right;
+	float: right;
+}
+
+#TB_ajaxWindowTitle {
+	float: left;
+	margin-bottom: 1px;
+	color: #666;
+	padding: 15px 0 5px 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#apDiv1 {
+	position: absolute;
+	left: 169px;
+	top: 65px;
+	width: 427px;
+	height: 226px;
+	z-index: 1;
+	display: none;
+}
+
+#TB_title { /*background-color:#e8e8e8;*/
+	background: url(../images/vote/m_head.png) no-repeat left top scroll;
+	height: 24px;
+}
+
+#TB_closeAjaxWindow a#TB_closeWindowButton {
+	color: #FFF;
+	font-size: 14px;
+}
+
+#TB_ajaxContent {
+	position: relative;
+	background: url(../images/m_body.png) repeat-y left top scroll;
+	clear: both;
+	/* padding:2px 15px 15px 15px; */
+	overflow: auto;
+	text-align: left;
+	line-height: 1.4em;
+}
+
+#TB_btns {
+	position: absolute;
+	padding-top: 10px;
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 28px;
+	background: url(../images/vote/m_foot.png) no-repeat left top scroll;
+	text-align: center;
+}
+
+#TB_btns #btn_ok,#TB_btns #btn_cancel {
+	border: none;
+	color: #FFF;
+	background: url(../images/vote/m_btn.png) no-repeat left top scroll;
+	width: 67px;
+	height: 20px;
+}
+
+#TB_ajaxContent.TB_modal {
+	padding: 15px;
+}
+
+#TB_ajaxContent p {
+	padding: 10px;
+	color: #455D69;
+	text-align: center;
+}
+
+#TB_load {
+	position: fixed;
+	display: none;
+	height: 13px;
+	width: 208px;
+	z-index: 103;
+	top: 50%;
+	left: 50%;
+	margin: -6px 0 0 -104px; /* -height/2 0 0 -width/2 */
+}
+
+* html #TB_load { /* ie6 hack */
+	position: absolute;
+	margin-top: expression(0 -                 parseInt(this.offsetHeight/ 2)
+		+  
+		 
+		      
+		     (       
+		       TBWindowMargin =                 document.documentElement && 
+		       
+		       document.documentElement.scrollTop ||            
+		    document.body.scrollTop ) +      
+		  
+		       'px' );
+}
+
+#TB_HideSelect {
+	z-index: 99;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	border: none;
+	filter: alpha(opacity =               0);
+	-moz-opacity: 0;
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+}
+
+* html #TB_HideSelect { /* ie6 hack */
+	position: absolute;
+	height: expression(document.body.scrollHeight >            
+		    document.body.offsetHeight ?      
+		  
+		       document.body.scrollHeight :              
+		  document.body.offsetHeight +    
+		     
+		      'px');
+}
+
+#TB_iframeContent {
+	clear: both;
+	border: none;
+	margin-bottom: -1px;
+	margin-top: 1px;
+	_margin-bottom: 1px;
+}
+
+.TB_overlayBG {
+	background: none !important
+}
+
+#TB_title {
+	height: 50px;
+	background: none;
+}
+
+#TB_ajaxWindowTitle {
+	color: #666;
+	padding: 15px 0 5px 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#TB_closeAjaxWindow {
+	padding: 0px;
+	height: 50px;
+	width: 50px;
+}
+
+#TB_ajaxContent {
+	background: none !important;
+}
+
+#TB_closeWindowButton {
+	display: block;
+	height: 0px;
+	width: 0px;
+	padding: 25px;
+}
+
+#TB_window {
+	border: none !important;
+	background: url(../images/vote/bg_01.jpg) no-repeat 0px 0px scroll;
+}
+
+.tbl_data th {
+	text-align: center;
+}
+
+.tbl_data td,.tbl_data th {
+	padding: 5px;
+	font-size: 14px;
+}
+
+.ipt {
+	width: 250px;
+	height: 24px;
+	line-height: 24px;
+	text-indent: 5px;
+	border: solid 1px #B6B9B9;
+}
+
+#apDiv1 {
+	position: absolute;
+	left: 169px;
+	top: 65px;
+	width: 427px;
+	height: 226px;
+	z-index: 1;
+	display: none;
+}
+
+.m_box {
+	position: relative;
+	width: 427px;
+	height: 226px;
+}
+
+.note {
+	font-size: 12px;
+}
+
+.close,.close a {
+	display: block;
+	position: absolute;
+	width: 425px;
+	height: 185px;
+	top: 0px;
+	left: 0px;
+	background-color: #000;
+	opacity: 0;
+	cursor: pointer;
+}
+
+.share_box {
+	position: absolute;
+	width: 100%;
+	height: 34px;
+	line-height: 44px;
+	bottom: 0px;
+	left: 0px;
+}
+
+.share {
+	float: left;
+	color: #fff;
+	margin-left: 40px;
+}
+
+.weibo {
+	float: right;
+	margin-right: 40px;
+}

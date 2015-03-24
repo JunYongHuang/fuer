@@ -1,0 +1,255 @@
+/* CSS Document */
+img {border:none;}
+a:link, a:visited{
+	color:#333333;
+	text-decoration:none;
+}
+.red {color:red;}
+/*-----定位------*/
+.fr { display:block; float:right;}
+.fl { display:block; float:left;}
+.t3 { margin-top:3px; }
+.t8 { margin-top:8px; }
+.cl { clear:both; }
+.l15{margin-left:15px;}
+
+
+.body{position:relative; min-height:537px;background:url(../images/user/bg.jpg) no-repeat scroll left top;}
+.b_01{
+	position:absolute;
+	left:31px;
+	top:10px;
+}
+.b_02{position:absolute; right:30px; top:30px; font-size:14px; font-weight:bold;}
+.b_02 a{color:#056fb8; font-size:14px; font-weight:bold;}
+.b_03{
+	position:absolute;
+	left:59px;
+	top:91px;
+}
+.b_03 th{font-size:14px; font-weight:bold; text-align:right; line-height:30px;}
+.ipt{width:250px; height:24px; line-height:24px; text-indent:5px; border:solid 1px #B6B9B9;}
+.btn_reg{background:url(../images/user/btn.png) no-repeat scroll left top; cursor: pointer; width:117px; height:35px; border:none;}
+.btn_login{background:url(../images/user/btn.png) no-repeat scroll left -35px; cursor: pointer; width:82px; height:36px; border:none;}
+
+
+/** ----------------------------------form.css--------------------------------------------------------------**/
+.loadding {display:none;}
+.err{ color:#DD3C10; }
+.ok{ color:green; }
+.page {
+    float: right;
+    margin: 10px;
+    text-align: right;
+}
+/** ----------------------------------global_user.css--------------------------------------------------------------**/
+
+.a14fff {font-size:14px; color:#fff;}
+
+.top_bar {height:31px; overflow:hidden; line-height:31px;}
+.top_bar .tool li {
+	height:23px; width:23px; margin-right:15px; margin-top:5px;
+	display:block;float:left;
+}
+.head {height:80px; position:relative;}
+.logo {position:absolute; left:0px; top:15px;}
+
+.nav_bar {
+	position:absolute;
+	right:27px;
+	top:18px;
+	font-size:14px;
+}
+
+
+.info{
+	height:42px; line-height:42px;
+}
+
+.payment_box .p_head {position:relative;height:50px; line-height:50px; background:url(../images/user/bg_payment_h.gif) no-repeat left top scroll; }
+.payment_box .p_head .p_tit { position:absolute; top:0px; left:0px;width:230px; text-align:center; font-size:18px;}
+.payment_box .p_body {	border:solid 6px #B7C8C8;  background-color: #E7EDED;}
+
+.tab_head { height:42px;  position:absolute; bottom:-7px; left:230px;}
+
+.tab_head li {
+	width:124px; height:42px; line-height:36px; text-align:center;
+	display:block; float:left;  color:#fff; font-size:14px; font-weight:bold;
+}
+.tab_head li a { color:#fff; text-decoration:none;}
+.tab_head li.tab_on{
+	background:url(../images/user/bg_tb_on.gif) no-repeat 0 0 scroll;
+}
+.tab_item { display:none;}
+.p_body{ padding:20px;}
+.p_body strong {font-size:14px;}
+
+.note { margin-top:10px; padding-left:50px;}
+.note strong {font-size:14px; line-height:32px;}
+
+.foot {
+	margin-top:20px;
+	border-top:solid 1px #D4D4D4;
+	padding-top:20px;
+	text-align:center;
+	line-height:26px;
+}
+.chargeBtn{
+	height: 29px !important;
+	width: 96px !important;
+	margin-top: 20px;
+}
+
+.charge_list{
+	background-color: #EFEFEF;
+    line-height: 24px;
+    width: 98%;
+}
+.charge_list th {
+	background-color: #B7C8C8;
+}
+.charge_list tr.even {
+    background: #eee;
+    color: #000000;
+	text-align: center;
+}
+.charge_list tr.odd {
+    background: #fff;
+    color: #000000;
+	text-align: center;
+}
+.charge_list th.sorted {
+    color: #0000FF;
+}
+
+.charge_list th.sorted a, .charge_list th.sortable a {
+    background-repeat: no-repeat;
+    display: block;
+    color: #0033FF;
+}
+
+.charge_list a:link, .charge_list a:visited{
+	color:#0033FF;
+	text-decoration:none;
+}
+
+.page a,.page strong,.page span {
+	line-height: 22px !important;
+	display: block;
+	float: left;
+	padding: 0px 8px;
+	text-align: center;
+	width: auto;
+	color: #0033FF;
+	text-decoration: none;
+}
+
+.page span {
+	vertical-align: bottom;
+	border: none;
+	color: #000;
+}
+
+.page strong {
+	border: medium none;
+	color: #000;
+}
+
+.r_content{
+	margin-top: 30px;
+	text-align: center;
+	margin-left: 140px;
+}
+.itemBg{
+	border:none;
+	text-align:center;
+	height: 57px;
+	display:inline-block;
+	color:#FFFFFF;
+	background: url(../images/bg_login_type.jpg) no-repeat 4px center  scroll;;
+	width:143px;
+}
+.MbuttDiv{
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.hide {
+	display: none;
+}
+/*============*/
+.step{
+	background: url("../images/tab/stepBg.jpg") no-repeat scroll 0 center transparent;
+	width:1001px;
+	height:105px;
+}
+.pay_area,.pay_area2{
+	padding:10px 10px 10px 130px;
+}
+.pay_area input[type='text'], .pay_area select{ width:204px; height:24px; line-height:24px; border:solid 1px #B6B9B9; }
+.pay_info{
+	border:1px solid #C4C4C4;
+}
+/*--------会员中心首页------------*/
+.v_box { border:solid 4px #cad3d8; }
+.v_box_tit {height:31px; line-height:31px; background-color:#4e5f69; padding-left:12px;
+	color:#fff; font-weight:bold; font-size:14px;
+}
+.v_box_body {}
+
+.v_left {
+	width:130px;
+	height:500px;
+	float:left;
+	border-right:solid 4px #EFEFEF;
+	overflow:hidden;
+}
+.lmenu {margin-top:10px;}
+.lmenu li {
+	display:block;
+	text-align:center;
+	line-height:28px;
+	font-size:14px;
+	font-weight:bold;
+}
+.v_right {
+	width:820px; float:right; overflow:hidden;
+	margin-top:10px;
+	line-height: 24px;
+}
+.r_tit {
+	margin-right:20px;
+	border-bottom:solid 3px #EFEFEF;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+}
+
+.v_box_body ul {padding-bottom:20px;}
+.v_box_body ul li {display:block; float:left; margin-left:20px;  margin-top:20px; text-align:center; font-size:14px; color:#3f3b3a;}
+
+.v_box_foot {
+	text-align:center;	height:50px; padding-top:12px;
+	background:url(../images/user/bg_v_box_foot.jpg) repeat-x 0 0 scroll; 
+}
+.btn_vote {
+	border:none; width:125px; height:38px; cursor:pointer;
+	background: url(../images/user/bg_btn_vote.jpg) no-repeat 0 0 scroll;
+}
+.btn_ok {
+	border:none; width:105px; height:32px; cursor:pointer;
+	background: url(../images/user/btn_ok.gif) no-repeat 0 0 scroll;
+}
+.v_box_explain {
+	position:relative;
+	height:500px; background-image:url(../images/user/bg_explain.gif);
+}
+
+.explain_box{
+	position:absolute;
+	left:59px;
+	top:30px;
+	width:830px;
+	height:422px;
+	overflow-y:auto;
+	line-height:24px;
+}
